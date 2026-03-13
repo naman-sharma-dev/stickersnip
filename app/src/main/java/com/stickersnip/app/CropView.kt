@@ -212,11 +212,13 @@ class CropView @JvmOverloads constructor(
             DragMode.TL, DragMode.TR, DragMode.BL, DragMode.BR,
             DragMode.TM, DragMode.BM, DragMode.ML, DragMode.MR
         )
+        val threshold = handleRadius * 2
+        val thresholdSq = threshold * threshold
         for (i in handles.indices) {
             val hx = handles[i][0]
             val hy = handles[i][1]
-            val dist = Math.sqrt(((x - hx) * (x - hx) + (y - hy) * (y - hy)).toDouble()).toFloat()
-            if (dist <= handleRadius * 2) return modes[i]
+            val distSq = (x - hx) * (x - hx) + (y - hy) * (y - hy)
+            if (distSq <= thresholdSq) return modes[i]
         }
         if (viewCrop.contains(x, y)) return DragMode.MOVE
         return DragMode.NONE
