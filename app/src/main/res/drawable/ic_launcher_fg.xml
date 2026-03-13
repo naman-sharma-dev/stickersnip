@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Scissors icon representing sticker snipping -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M54,30 L54,54 M44,64 L54,54 L64,64 M40,68 A6,6 0 1,1 40,56 A6,6 0 1,1 40,68 M68,68 A6,6 0 1,1 68,56 A6,6 0 1,1 68,68" />
+    <path
+        android:strokeColor="#333333"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M54,30 L54,54 M44,64 L54,54 L64,64" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M40,62 m-6,0 a6,6 0 1,1 12,0 a6,6 0 1,1 -12,0" />
+    <path
+        android:fillColor="#333333"
+        android:pathData="M68,62 m-6,0 a6,6 0 1,1 12,0 a6,6 0 1,1 -12,0" />
+</vector>
