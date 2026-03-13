@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StickerSnip</string>
+    <string name="empty_packs">No sticker packs yet.\nTap + to create one!</string>
+    <string name="create_new_pack">Create new pack</string>
+    <string name="pack_name_hint">Pack name</string>
+    <string name="pick_screenshots">📸 Pick Screenshots</string>
+    <string name="auto_crop_all">✨ Auto-crop All</string>
+    <string name="saved_stickers_label">SAVED STICKERS</string>
+    <string name="save_pack">💾 Save Pack</string>
+    <string name="add_to_whatsapp">➕ Add to WhatsApp</string>
+    <string name="whatsapp_hint">WhatsApp requires at least 3 stickers per pack</string>
+    <string name="add_to_pack">Add to Pack</string>
+    <string name="plus_whatsapp">＋ WhatsApp</string>
+    <string name="edit_pack">Edit pack</string>
+    <string name="delete_pack">Delete pack</string>
+    <string name="tray_icon">Tray icon</string>
+    <string name="sticker_image">Sticker image</string>
+</resources>
